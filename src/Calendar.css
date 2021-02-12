@@ -1,0 +1,34 @@
+@import '~react-calendar/dist/Calendar.css';
+
+.react-calendar__month-view__days__day--weekend, .react-calendar__month-view__days__day--weekend:enabled {
+    @apply text-sb-orange;
+  }
+
+.react-calendar__tile--now, .react-calendar__tile--now:enabled {
+    @apply bg-gray-600;
+    @apply text-white;
+
+    @apply hover:bg-gray-600;
+    @apply hover:text-white;
+
+    @apply active:bg-gray-600;
+    @apply active:text-white;
+
+    @apply focus:bg-gray-600;
+    @apply focus:text-white;
+} 
+
+
+.react-calendar__tile--active, .react-calendar__tile--active:enabled {
+    @apply bg-sb-gray-900;
+    @apply text-white;
+
+    @apply hover:bg-sb-gray-900;
+    @apply hover:text-white;
+
+    @apply active:bg-sb-gray-900;
+    @apply active:text-white;
+
+    @apply focus:bg-sb-gray-900;
+    @apply focus:text-white;
+  }
