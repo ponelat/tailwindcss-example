@@ -1,7 +1,5 @@
 # Slides
-Build these slides with [https://github.com/marp-team/marp-cli](Marp CLI)
-
-
+Build these slides with [Marp CLI](https://github.com/marp-team/marp-cli)
 
 ```shell
 marp --allow-local-files --pdf ./slides.md
