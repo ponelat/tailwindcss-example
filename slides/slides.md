@@ -370,6 +370,7 @@ The default style sheet is fat (2.7mb!)
 
 But we can purge them, reducing production css bundles 
 to around **16kb** or so!
+
 It scans your code for classes you use and deletes all others.
 
 ---
