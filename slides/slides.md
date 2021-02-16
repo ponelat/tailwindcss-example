@@ -24,7 +24,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 # CSS Framworks
 
-## What are they **NOT** supposed to do?
+## What are they *not* supposed to do?
 
 - Make it hard to change the default styling
 - Couple unwanted behaviour with style
@@ -39,7 +39,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - Provide consistent spacing, colours, etc
 - The ability to make changes with confidence
 
-----
+---
 
 
 # Types of CSS systems
@@ -50,7 +50,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - BEM / CSS Modules
 - Utility-first CSS (Atomic, **TailwindCSS**)
 
-----
+---
 
 # **Boostrap** CSS
 
@@ -59,9 +59,9 @@ Bootstrap is a CSS framework designed and developed by Twitter.
 
 ### Giving designers a (960) grid and loads more...
 
-![](screenshot_20210210_114830.png)
+![](./images/boostrap-layout.png)
 
-----
+---
 
 # **Bulma** example
 
@@ -77,25 +77,25 @@ Semantic class names.
       ...
 ```
 
-![](screenshot_20210210_120637.png)
+![](./images/bulma-example.png)
 
-----
+---
 
 # Do we need frameworks?
 
 We now have browser support for a lot of built-in functionality and CSS preprocessors.
 
-----
+---
 
 # Normalize(.css) 
 
 _Make browsers consistent_ - Normalizing has a standard polyfill today. 
 
-It's called normalize.css ![](normalize.svg) 
+It's called normalize.css ![normalize logo](./images/normalize-logo.svg)
 
-![](formSubmit.png)
+![comparison of form submit buttons across browsers](./images/form-submit.png)
 
-----
+---
 
 # CSS Preprocessors
 
@@ -141,9 +141,9 @@ _Provide a layout system_
 In 2021 all modern browsers support Grid Layout. 
 As well as media query breakpoints for mobile, etc.
 
-![fg](ff-chrome-ie.jpg)
+![fg](./images/ff-chrome-ie.jpg)
 
-----
+---
 
 # CSS Variables
 
@@ -172,7 +172,7 @@ Ways to address this:
 - Block Element Modifier (B.E.M.)
 - CSS Modules
 
-----
+---
 
 
 ## BEM flat class names
@@ -191,7 +191,7 @@ Ways to address this:
 	color: #900;
 }
 ```
-----
+---
 
 ## CSS Modules, like BEM but automatic. 
 
@@ -211,7 +211,7 @@ const Link = (props) => <a className={classes.a} {...props} />
 
 Yeilds: `<a class="a-5b2d5ecc" />`
 
-----
+---
 
 # Problems / solutions
 
@@ -310,7 +310,7 @@ This gives you two things:
 
 OMG it's aweful! Make it stop
 
-----
+---
 
 # How do I compose this?
 
@@ -347,7 +347,7 @@ Because you don't need to write CSS :grin:
 
 Oh, and because it's all about small composeable units.
 
-![bg left](screenshot_20210212_121235.png)
+![bg left](./images/composeable-units.png)
 
 
 ---
@@ -370,6 +370,7 @@ The default style sheet is fat (2.7mb!)
 
 But we can purge them, reducing production css bundles 
 to around **16kb** or so!
+
 It scans your code for classes you use and deletes all others.
 
 ---
@@ -386,10 +387,10 @@ It scans your code for classes you use and deletes all others.
 ---
 
 # Links
-
 https://github.com/ponelat/tailwindcss-example
 
-https://TailwindCSS.com
-https://TailwindUI.com
-https://play.tailwindcss.com/
+[TailwindUI.com](https://tailwindui.com)
 
+[TailwindCSS.com](https://tailwindcss.com)
+
+[Tailwind Play](https://play.tailwindcss.com/)
