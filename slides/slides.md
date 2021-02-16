@@ -24,7 +24,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 
 # CSS Framworks
 
-## What are they **NOT** supposed to do?
+## What are they *not* supposed to do?
 
 - Make it hard to change the default styling
 - Couple unwanted behaviour with style
@@ -39,7 +39,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - Provide consistent spacing, colours, etc
 - The ability to make changes with confidence
 
-----
+---
 
 
 # Types of CSS systems
@@ -50,7 +50,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 - BEM / CSS Modules
 - Utility-first CSS (Atomic, **TailwindCSS**)
 
-----
+---
 
 # **Boostrap** CSS
 
@@ -61,7 +61,7 @@ Bootstrap is a CSS framework designed and developed by Twitter.
 
 ![](./images/boostrap-layout.png)
 
-----
+---
 
 # **Bulma** example
 
@@ -79,13 +79,13 @@ Semantic class names.
 
 ![](./images/bulma-example.png)
 
-----
+---
 
 # Do we need frameworks?
 
 We now have browser support for a lot of built-in functionality and CSS preprocessors.
 
-----
+---
 
 # Normalize(.css) 
 
@@ -95,7 +95,7 @@ It's called normalize.css ![normalize logo](./images/normalize-logo.svg)
 
 ![comparison of form submit buttons across browsers](./images/form-submit.png)
 
-----
+---
 
 # CSS Preprocessors
 
@@ -143,7 +143,7 @@ As well as media query breakpoints for mobile, etc.
 
 ![fg](./images/ff-chrome-ie.jpg)
 
-----
+---
 
 # CSS Variables
 
@@ -172,7 +172,7 @@ Ways to address this:
 - Block Element Modifier (B.E.M.)
 - CSS Modules
 
-----
+---
 
 
 ## BEM flat class names
@@ -191,7 +191,7 @@ Ways to address this:
 	color: #900;
 }
 ```
-----
+---
 
 ## CSS Modules, like BEM but automatic. 
 
@@ -211,7 +211,7 @@ const Link = (props) => <a className={classes.a} {...props} />
 
 Yeilds: `<a class="a-5b2d5ecc" />`
 
-----
+---
 
 # Problems / solutions
 
@@ -310,7 +310,7 @@ This gives you two things:
 
 OMG it's aweful! Make it stop
 
-----
+---
 
 # How do I compose this?
 
