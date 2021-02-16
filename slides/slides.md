@@ -59,7 +59,7 @@ Bootstrap is a CSS framework designed and developed by Twitter.
 
 ### Giving designers a (960) grid and loads more...
 
-![](screenshot_20210210_114830.png)
+![](./images/boostrap-layout.png)
 
 ----
 
@@ -77,7 +77,7 @@ Semantic class names.
       ...
 ```
 
-![](screenshot_20210210_120637.png)
+![](./images/bulma-example.png)
 
 ----
 
@@ -91,9 +91,9 @@ We now have browser support for a lot of built-in functionality and CSS preproce
 
 _Make browsers consistent_ - Normalizing has a standard polyfill today. 
 
-It's called normalize.css ![](normalize.svg) 
+It's called normalize.css ![normalize logo](./images/normalize-logo.svg)
 
-![](formSubmit.png)
+![comparison of form submit buttons across browsers](./images/form-submit.png)
 
 ----
 
@@ -141,7 +141,7 @@ _Provide a layout system_
 In 2021 all modern browsers support Grid Layout. 
 As well as media query breakpoints for mobile, etc.
 
-![fg](ff-chrome-ie.jpg)
+![fg](./images/ff-chrome-ie.jpg)
 
 ----
 
@@ -347,7 +347,7 @@ Because you don't need to write CSS :grin:
 
 Oh, and because it's all about small composeable units.
 
-![bg left](screenshot_20210212_121235.png)
+![bg left](./images/composeable-units.png)
 
 
 ---
