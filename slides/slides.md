@@ -387,10 +387,10 @@ It scans your code for classes you use and deletes all others.
 ---
 
 # Links
-
 https://github.com/ponelat/tailwindcss-example
 
-https://TailwindCSS.com
-https://TailwindUI.com
-https://play.tailwindcss.com/
+[TailwindUI.com](https://tailwindui.com)
 
+[TailwindCSS.com](https://tailwindcss.com)
+
+[Tailwind Play](https://play.tailwindcss.com/)
